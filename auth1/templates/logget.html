@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+ <title>{% block title %}legget{% endblock %}</title>
+
+{% block content %}
+
+    <h2>hi {{ full_name }} you are in logged in </h2>
+    <p>click <a href="/logout">here</a> to logout </p>
+    <p>click <a href="/">home</a> </p>
+
+{% endblock %}
